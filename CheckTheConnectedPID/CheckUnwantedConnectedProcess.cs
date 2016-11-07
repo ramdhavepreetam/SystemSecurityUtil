@@ -20,7 +20,7 @@ namespace CheckTheConnectedPID
 {
     public class CheckUnwantedConnectedProcess
     {
-public        string GetCurrectProcessData()
+        public string GetCurrectProcessData()
         {
             var proc = new Process
             {
@@ -31,19 +31,19 @@ public        string GetCurrectProcessData()
                     UseShellExecute = false,
                     RedirectStandardOutput = true,
                     CreateNoWindow = true
-                }   
+                }
             };
             proc.Start();
-            string line = string.Empty ;
+            StringBuilder networkData = new StringBuilder();
             while (!proc.StandardOutput.EndOfStream)
             {
-                  line += proc.StandardOutput.ReadLine();
-                // do something with line
+                networkData.Append(proc.StandardOutput.ReadLine());
+                 
             }
-          
+
             proc.Dispose();
 
-            return line;
+            return networkData.ToString();
         }
     }
 }

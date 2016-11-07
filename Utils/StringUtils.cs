@@ -8,6 +8,9 @@ namespace Utils
 {
     public class StringUtils
     {
-
+        public void GenrateQuamaSeprated(StringBuilder TextValue)
+        {
+            
+        }
     }
 }
