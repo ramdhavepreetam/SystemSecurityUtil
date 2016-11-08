@@ -33,11 +33,11 @@
             // 
             // cmdVarifysys
             // 
-            this.cmdVarifysys.Location = new System.Drawing.Point(62, 78);
+            this.cmdVarifysys.Location = new System.Drawing.Point(12, 12);
             this.cmdVarifysys.Name = "cmdVarifysys";
-            this.cmdVarifysys.Size = new System.Drawing.Size(166, 73);
+            this.cmdVarifysys.Size = new System.Drawing.Size(181, 39);
             this.cmdVarifysys.TabIndex = 0;
-            this.cmdVarifysys.Text = "button1";
+            this.cmdVarifysys.Text = "Check the system";
             this.cmdVarifysys.UseVisualStyleBackColor = true;
             this.cmdVarifysys.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(625, 329);
+            this.ClientSize = new System.Drawing.Size(625, 307);
             this.Controls.Add(this.cmdVarifysys);
             this.Name = "ProcessUtility";
             this.Text = "Form1";

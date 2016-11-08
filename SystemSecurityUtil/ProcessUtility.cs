@@ -20,6 +20,7 @@ namespace CheckSystemSecurity
         private void button1_Click(object sender, EventArgs e)
         {
             CheckUnwantedConnectedProcess objproce = new CheckUnwantedConnectedProcess();
+
             MessageBox.Show(objproce.GetCurrectProcessData());
         }
     }
