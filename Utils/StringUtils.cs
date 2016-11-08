@@ -1,6 +1,6 @@
 ﻿///----------------------------------------------------------------------------------
 ///   Namespace:      <StringUtils>
-///   Class:          <CheckUnwantedConnectedProcess>
+///   Class:          <StringUtils>
 ///   Description:    <This Class is used to extract the Current Connected process>
 ///   Author:         <Preetam Ramdhave>                    Date: <7-OCT-2016>
 ///   Notes:          <This is string utility class. This class is used for 
